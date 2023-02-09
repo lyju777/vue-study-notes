@@ -1,15 +1,18 @@
 <template>
   <div>
-    signup
+    <signupForm></signupForm>
   </div>
 </template>
 
 <script>
+import signupForm from '@/components/common/signupForm.vue';
 export default {
-  name: 'VueTilSignupPage',
-
   data() {
     return {};
+  },
+
+  components: {
+    signupForm,
   },
 
   mounted() {},
