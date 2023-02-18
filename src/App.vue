@@ -19,7 +19,9 @@ export default {
     return {};
   },
 
-  mounted() {},
+  created() {
+    console.log(process.env);
+  },
 
   methods: {},
 };
